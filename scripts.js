@@ -2,8 +2,8 @@ const boton = document.getElementById('botonSiguiente');
 const luz = document.getElementById('luz');
 const estado = document.getElementById('estado');
 
-const colores = ['rojo', 'amarillo', 'verde'];
-const textos = ['Alto', 'Precaución', 'Avanza'];
+const colores = ['verde', 'amarillo', 'rojo'];
+const textos = ['Avanza', 'Precaución', 'Alto'];
 
 let indice = 0;
 
@@ -12,3 +12,4 @@ boton.addEventListener('click', () => {
   luz.className = colores[indice];
   estado.textContent = textos[indice];
 });
+
