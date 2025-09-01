@@ -23,6 +23,7 @@ button {
   width: 150px; /* cuadro más ancho */
   border-radius: 8px;
   margin-bottom: 10px;
+  transition: background-color 1s ease;
 }
 
 .rojo {
@@ -43,3 +44,4 @@ button {
   font-size: 1.5em;
   height: 1.5em;
 }
+
